@@ -1,7 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 
-function SortVisualizer() {
-  return <h1>Hello, world!</h1>;
+export default class SortingVisualizer extends Component {
+  constructor(props: any) {
+    super(props);
+  }
+
+  displayList() {
+    return "1234";
+  }
+
+  render() {
+    return <div>displayList()</div>;
+  }
 }
-
-export default SortVisualizer;
